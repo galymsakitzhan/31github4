@@ -5,9 +5,46 @@
 }
 
 .container{
-    width: 400px;
+    position: relative;
+    width: 350px;
     height: 500px;
-    background-color: antiquewhite;
-    text-align: center;
+    background-color: rgb(31, 31, 31);
+    /* text-align: center; */
     margin: 80px auto;
 }
+
+.container .timer{
+    position: absolute;
+    top: 150px;
+    font-size: 50px;
+    margin: 0 80px;
+    color: aliceblue;
+}
+
+.container .start button{
+    position: absolute;
+    top: 250px;
+    margin: 0 5cqh;
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .stop button{
+    position: absolute;
+    top: 250px;
+    margin: 0 130px;
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .resert button{
+    position: absolute;
+    top: 250px;
+    margin: 0 220px;
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
