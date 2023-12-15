@@ -13,11 +13,11 @@
     margin: 80px auto;
 }
 
-.container .timer{
+.container #timer{
     position: absolute;
     top: 150px;
     font-size: 50px;
-    margin: 0 80px;
+    margin: 0 120px;
     color: aliceblue;
 }
 
@@ -48,3 +48,12 @@
     cursor: pointer;
 }
 
+.redshow{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.blueshow{
+    background-color: rgb(47, 137, 241);
+    color: aliceblue;
+}
