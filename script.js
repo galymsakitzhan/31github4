@@ -16,7 +16,7 @@ stop.addEventListener('click', () =>{
 
 
 function updateTimer(){
-    future = Date.parse("jun 12, 2022 01:30:00");
+    future = Date.parse("jun 12, 2022 01:15:00");
     now = Date.parse("jun 12, 2022 01:00:00");
     diff = future - now;
 
